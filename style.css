@@ -1,0 +1,52 @@
+body{
+    background-color:white;
+}
+header{
+    background-color: skyblue;
+    margin:0;
+    padding: 5%;
+    color: goldenrod;
+    text-align: center;
+}
+aside{
+    background-color: white;
+    box-shadow:0 0 10px violet;
+    padding: auto;
+    width: 250px;
+    height: 100vh;
+}
+aside a{
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    color: black;
+}
+aside img{
+    border-radius: 80%;
+    display: block;
+    margin: auto;
+    box-shadow: 0 5px 10px;
+    text-align: center;
+}
+aside:hover{
+    background-color: orange;
+    color: blue;
+}
+aside a:hover{
+    background-color: green;
+    color: rgb(136,136,166);
+}
+nav{    
+  background-color: red;     
+  font-size: 30px;   
+} 
+nav a{     
+  color: black;     
+  text-decoration: none;     
+  padding: 10px  5px;     
+  display: inline-block; 
+} nav a:hover{     
+  background-color: rgb(20, 16, 150);
+color: rgb(211, 215, 118);
+ 
+}
